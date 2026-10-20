@@ -1,0 +1,137 @@
+/* =========================================================================
+   Hamago Pest Solutions — Elementor Compatibility & Responsive Layer
+   Dimuat hanya di halaman yang dibangun dengan Elementor
+   (di-enqueue setelah main.css via functions.php).
+   ========================================================================= */
+
+/* ---------- Konten Elementor full-width, tanpa batasan theme ---------- */
+.hmg-elementor-content,
+.hmg-page-content .hmg-elementor-content {
+	width: 100%;
+	max-width: none;
+	margin: 0;
+	padding: 0;
+}
+
+body.elementor-page .hmg-page-content { padding: 0; }
+body.elementor-page main.site-main { display: block; width: 100%; }
+body.elementor-page #content.site-main { overflow: visible; }
+
+/* Judul halaman WP tersembunyi di halaman Elementor (Elementor punya judul sendiri) */
+body.elementor-page .page-header { display: none; }
+
+/* ---------- Perbaiki lebar container & section Elementor ---------- */
+.elementor-section .elementor-container,
+.e-con .e-con-inner { flex-wrap: wrap; }
+
+/* Widget bawaan theme mengisi penuh container Elementor */
+.hmg-el,
+.elementor-widget-hamago_hero,
+.elementor-widget-hamago_usp,
+.elementor-widget-hamago_about,
+.elementor-widget-hamago_services,
+.elementor-widget-hamago_process,
+.elementor-widget-hamago_video_cta,
+.elementor-widget-hamago_clients,
+.elementor-widget-hamago_testimonials,
+.elementor-widget-hamago_posts,
+.elementor-widget-hamago_booking,
+.elementor-widget-hamago_pagehero,
+.elementor-widget-hamago_about_page,
+.elementor-widget-hamago_services_page,
+.elementor-widget-hamago_contact { width: 100%; }
+
+/* ---------- Tipografi & elemen dasar di dalam canvas Elementor ---------- */
+.elementor-widget .hmg-el h1,
+.elementor-widget .hmg-el h2,
+.elementor-widget .hmg-el h3,
+.elementor-widget .hmg-el h4 { color: inherit; }
+
+/* List Elementor tidak boleh kehilangan bullet karena reset theme */
+.elementor-widget-text-editor ul,
+.elementor-widget-text-editor ol { padding-left: 1.4em; }
+.elementor-widget-text-editor ul { list-style: disc; }
+.elementor-widget-text-editor ol { list-style: decimal; }
+
+/* Gambar konten Elementor tetap responsif */
+.elementor-widget img { max-width: 100%; height: auto; }
+
+/* ---------- Editor & preview mode ---------- */
+/* Semua elemen reveal harus terlihat di editor agar mudah diedit */
+body.elementor-editor-active [data-reveal],
+body.elementor-editor-preview [data-reveal] {
+	opacity: 1 !important;
+	transform: none !important;
+}
+/* Orbit lebih cepat di editor agar terlihat bergerak */
+.elementor-editor-active .orbit,
+.elementor-editor-preview .orbit { animation-duration: 14s; }
+
+/* Kontrol slider hero tidak menghalangi klik edit di editor Elementor. */
+body.elementor-editor-active .hmg-slider-nav,
+body.elementor-editor-preview .hmg-slider-nav,
+body.elementor-editor-active .hmg-slider-dot,
+body.elementor-editor-preview .hmg-slider-dot { pointer-events: none; }
+/* Slide hero selalu tampil pertama saat widget dirender ulang di editor. */
+body.elementor-editor-active .hero-slide:not(.is-active),
+body.elementor-editor-preview .hero-slide:not(.is-active) { opacity: 0; }
+
+/* Hero mode gambar di dalam container Elementor tetap full-width & tinggi cukup. */
+.hmg-el .hero--has-media { min-height: min(88vh, 860px); }
+
+/* Hero halaman dalam: sudut bawah membulat terlihat di preview editor */
+.hmg-el .hmg-pagehero { margin-bottom: 0; }
+
+/* Hint setup beranda tidak tampil di preview editor. */
+body.elementor-editor-active .hmg-front-hint,
+body.elementor-editor-preview .hmg-front-hint { display: none; }
+
+/* =========================================================================
+   RESPONSIVE — tablet (iPad) & mobile untuk halaman Elementor
+   ========================================================================= */
+@media (max-width: 1024px) {
+	.elementor-section .elementor-container { flex-wrap: wrap; }
+	.hmg-el .hmg-section { padding: 64px 0; }
+}
+
+@media (max-width: 980px) {
+	body.elementor-page .hero-grid { grid-template-columns: 1fr; gap: 46px; }
+	body.elementor-page .radar-wrap { max-width: 380px; }
+	.hmg-el .wrap { padding: 0 22px; }
+}
+
+@media (max-width: 720px) {
+	body.elementor-page .hmg-section,
+	.hmg-el .hmg-section { padding: 56px 0; }
+	body.elementor-page .hero { padding: 36px 0 60px; }
+	body.elementor-page .hero h1 { font-size: clamp(30px, 8.4vw, 40px); }
+	body.elementor-page .radar-wrap { max-width: 300px; }
+	body.elementor-page .pest-chip { width: 46px; height: 46px; }
+	body.elementor-page .pest-chip .hmg-ico { width: 21px; height: 21px; }
+	body.elementor-page .cta-row .btn { width: 100%; }
+	.hmg-el .wrap { padding: 0 18px; }
+
+	/* Grid section theme di dalam widget Elementor → 1 kolom di mobile */
+	.hmg-el .usp-grid,
+	.hmg-el .services-grid,
+	.hmg-el .process-grid,
+	.hmg-el .testi-grid,
+	.hmg-el .blog-grid { grid-template-columns: 1fr; }
+	.hmg-el .video-cta { grid-template-columns: 1fr; padding: 40px 22px; }
+}
+
+@media (max-width: 400px) {
+	body.elementor-page .radar-wrap { max-width: 250px; }
+	body.elementor-page .stat-strip { gap: 18px; }
+}
+
+/* Touch device: matikan hover-lift agar tidak "nempel" */
+@media (hover: none) {
+	.elementor-widget .svc-card:hover,
+	.elementor-widget .blog-card:hover { transform: none; }
+}
+
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+	body.elementor-page [data-reveal] { opacity: 1; transform: none; }
+}

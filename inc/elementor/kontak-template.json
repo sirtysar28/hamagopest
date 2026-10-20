@@ -1,0 +1,76 @@
+{
+    "content": [
+        {
+            "id": "hmgkph1",
+            "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+                "margin": { "unit": "px", "top": "0", "right": "auto", "bottom": "0", "left": "auto", "isLinked": false }
+            },
+            "elements": [
+                {
+                    "id": "hmgkpw1",
+                    "settings": {
+                        "crumb_text": "Kontak",
+                        "crumb_home": "Beranda",
+                        "title": "Hubungi <span class=\"accent\">Hamago</span>",
+                        "desc": "Ceritakan masalah hama Anda — tim kami siaga membantu dengan inspeksi gratis dan solusi terukur.",
+                        "btn_text": "",
+                        "btn_link": { "url": "", "is_external": "", "nofollow": "", "custom_attributes": "" },
+                        "height": "sm",
+                        "show_blobs": "yes",
+                        "show_grid": "yes",
+                        "show_ring": "yes",
+                        "enable_parallax": "yes"
+                    },
+                    "elements": [],
+                    "elType": "widget",
+                    "widgetType": "hamago_pagehero"
+                }
+            ],
+            "elType": "container",
+            "isInner": false
+        },
+        {
+            "id": "hmgkct1",
+            "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+                "margin": { "unit": "px", "top": "0", "right": "auto", "bottom": "0", "left": "auto", "isLinked": false }
+            },
+            "elements": [
+                {
+                    "id": "hmgkcw1",
+                    "settings": {
+                        "eyebrow": "Hubungi Kami",
+                        "heading": "Kami siap membantu <span class=\"accent\">kapan pun</span> Anda butuh",
+                        "sub": "Pilih cara paling nyaman untuk Anda — telepon, WhatsApp, email, atau datang langsung ke kantor kami.",
+                        "form_title": "Kirim Pesan",
+                        "form_desc": "Isi formulir di bawah dan tim kami akan menghubungi Anda maksimal 1×24 jam.",
+                        "form_shortcode": "",
+                        "show_map": "yes",
+                        "map_url": "",
+                        "map_title": "Lokasi Kantor Kami",
+                        "map_height": 430,
+                        "enable_parallax": "yes"
+                    },
+                    "elements": [],
+                    "elType": "widget",
+                    "widgetType": "hamago_contact"
+                }
+            ],
+            "elType": "container",
+            "isInner": false
+        }
+    ],
+    "page_settings": [],
+    "version": "0.4",
+    "title": "Kontak — Hamago",
+    "type": "page"
+}

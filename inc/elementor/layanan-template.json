@@ -1,0 +1,128 @@
+{
+    "content": [
+        {
+            "id": "hmglph1",
+            "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+                "margin": { "unit": "px", "top": "0", "right": "auto", "bottom": "0", "left": "auto", "isLinked": false }
+            },
+            "elements": [
+                {
+                    "id": "hmglpw1",
+                    "settings": {
+                        "crumb_text": "Layanan",
+                        "crumb_home": "Beranda",
+                        "title": "Layanan <span class=\"accent\">Profesional</span> Pengendalian Hama",
+                        "desc": "Delapan layanan unggulan untuk kebutuhan rumah tangga hingga industri — aman, efektif, dan dikerjakan teknisi berpengalaman.",
+                        "btn_text": "Konsultasi Gratis",
+                        "btn_link": { "url": "/kontak/", "is_external": "", "nofollow": "", "custom_attributes": "" },
+                        "height": "md",
+                        "show_blobs": "yes",
+                        "show_grid": "yes",
+                        "show_ring": "yes",
+                        "enable_parallax": "yes"
+                    },
+                    "elements": [],
+                    "elType": "widget",
+                    "widgetType": "hamago_pagehero"
+                }
+            ],
+            "elType": "container",
+            "isInner": false
+        },
+        {
+            "id": "hmglsv1",
+            "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+                "margin": { "unit": "px", "top": "0", "right": "auto", "bottom": "0", "left": "auto", "isLinked": false }
+            },
+            "elements": [
+                {
+                    "id": "hmglsw1",
+                    "settings": {
+                        "eyebrow": "Layanan Kami",
+                        "heading": "Solusi pengendalian hama <span class=\"accent\">menyeluruh</span> untuk rumah & bisnis",
+                        "sub": "Setiap layanan dimulai dari inspeksi gratis dan dikerjakan teknisi bersertifikat dengan garansi layanan.",
+                        "columns": "3",
+                        "cta_text": "Tidak yakin layanan mana yang tepat? Tim kami siap membantu memetakan masalah hama properti Anda — gratis.",
+                        "cta_btn_text": "Konsultasi via WhatsApp",
+                        "cta_btn_link": { "url": "", "is_external": "", "nofollow": "", "custom_attributes": "" },
+                        "enable_parallax": "yes"
+                    },
+                    "elements": [],
+                    "elType": "widget",
+                    "widgetType": "hamago_services_page"
+                }
+            ],
+            "elType": "container",
+            "isInner": false
+        },
+        {
+            "id": "hmglpc1",
+            "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+                "margin": { "unit": "px", "top": "0", "right": "auto", "bottom": "0", "left": "auto", "isLinked": false }
+            },
+            "elements": [
+                {
+                    "id": "hmglcw1",
+                    "settings": {
+                        "eyebrow": "Cara Kerja",
+                        "heading": "Empat langkah menuju properti yang bebas hama",
+                        "sub": "",
+                        "enable_parallax": "yes"
+                    },
+                    "elements": [],
+                    "elType": "widget",
+                    "widgetType": "hamago_process"
+                }
+            ],
+            "elType": "container",
+            "isInner": false
+        },
+        {
+            "id": "hmgltb1",
+            "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+                "margin": { "unit": "px", "top": "0", "right": "auto", "bottom": "0", "left": "auto", "isLinked": false }
+            },
+            "elements": [
+                {
+                    "id": "hmgtbw2",
+                    "settings": {
+                        "heading": "Siap bebas dari hama?",
+                        "sub": "Jadwalkan inspeksi gratis dan konsultasikan masalah hama Anda hari ini.",
+                        "btn_text": "Hubungi via WhatsApp",
+                        "btn_link": { "url": "", "is_external": "", "nofollow": "", "custom_attributes": "" },
+                        "enable_parallax": "yes"
+                    },
+                    "elements": [],
+                    "elType": "widget",
+                    "widgetType": "hamago_booking"
+                }
+            ],
+            "elType": "container",
+            "isInner": false
+        }
+    ],
+    "page_settings": [],
+    "version": "0.4",
+    "title": "Layanan — Hamago",
+    "type": "page"
+}

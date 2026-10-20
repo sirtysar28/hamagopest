@@ -1,0 +1,115 @@
+{
+    "content": [
+        {
+            "id": "hmgph01",
+            "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+                "margin": { "unit": "px", "top": "0", "right": "auto", "bottom": "0", "left": "auto", "isLinked": false }
+            },
+            "elements": [
+                {
+                    "id": "hmgphw1",
+                    "settings": {
+                        "crumb_text": "Tentang Kami",
+                        "crumb_home": "Beranda",
+                        "title": "Tentang <span class=\"accent\">Hamago</span> Pest Solutions",
+                        "desc": "Tim teknisi bersertifikat yang menangani hama dengan metode terukur, aman, dan terjamin — untuk rumah maupun bisnis Anda.",
+                        "btn_text": "",
+                        "btn_link": { "url": "", "is_external": "", "nofollow": "", "custom_attributes": "" },
+                        "height": "md",
+                        "show_blobs": "yes",
+                        "show_grid": "yes",
+                        "show_ring": "yes",
+                        "enable_parallax": "yes"
+                    },
+                    "elements": [],
+                    "elType": "widget",
+                    "widgetType": "hamago_pagehero"
+                }
+            ],
+            "elType": "container",
+            "isInner": false
+        },
+        {
+            "id": "hmgap01",
+            "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+                "margin": { "unit": "px", "top": "0", "right": "auto", "bottom": "0", "left": "auto", "isLinked": false }
+            },
+            "elements": [
+                {
+                    "id": "hmgapw1",
+                    "settings": {
+                        "eyebrow": "Tentang Kami",
+                        "heading": "Mitra pengendalian hama yang bekerja dengan <span class=\"accent\">data, bukan tebakan</span>",
+                        "sub": "",
+                        "intro_body": "Hamago Pest Solutions berdiri dengan satu misi: menghadirkan lingkungan hidup dan bebas hama yang aman bagi keluarga maupun bisnis. Kami memadukan teknisi bersertifikat, metode penanganan terukur, dan produk yang aman bagi manusia serta lingkungan.",
+                        "intro_body2": "Setiap penanganan dimulai dari inspeksi menyeluruh — memetakan titik masuk, tingkat infestasi, dan karakter bangunan — sehingga solusi yang diterapkan tepat sasaran dan hasilnya bertahan lama.",
+                        "checklist": [
+                            { "text": "Teknisi bersertifikat & terlatih", "_id": "c1" },
+                            { "text": "Produk aman bagi keluarga & lingkungan", "_id": "c2" },
+                            { "text": "Garansi layanan & pemantauan pasca-treatment", "_id": "c3" },
+                            { "text": "Laporan kerja transparan di setiap kunjungan", "_id": "c4" }
+                        ],
+                        "intro_btn_text": "Konsultasi Gratis",
+                        "intro_btn_link": { "url": "", "is_external": "", "nofollow": "", "custom_attributes": "" },
+                        "badge_number": "10+",
+                        "badge_label": "Tahun pengalaman",
+                        "v_eyebrow": "Nilai Kami",
+                        "v_heading": "Prinsip yang kami pegang di setiap penanganan",
+                        "v_sub": "",
+                        "t_eyebrow": "Perjalanan Kami",
+                        "t_heading": "Tumbuh bersama kepercayaan klien",
+                        "t_sub": "",
+                        "enable_parallax": "yes"
+                    },
+                    "elements": [],
+                    "elType": "widget",
+                    "widgetType": "hamago_about_page"
+                }
+            ],
+            "elType": "container",
+            "isInner": false
+        },
+        {
+            "id": "hmgtb01",
+            "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+                "margin": { "unit": "px", "top": "0", "right": "auto", "bottom": "0", "left": "auto", "isLinked": false }
+            },
+            "elements": [
+                {
+                    "id": "hmgtbw1",
+                    "settings": {
+                        "heading": "Siap bebas dari hama?",
+                        "sub": "Jadwalkan inspeksi gratis dan konsultasikan masalah hama Anda hari ini.",
+                        "btn_text": "Hubungi via WhatsApp",
+                        "btn_link": { "url": "", "is_external": "", "nofollow": "", "custom_attributes": "" },
+                        "enable_parallax": "yes"
+                    },
+                    "elements": [],
+                    "elType": "widget",
+                    "widgetType": "hamago_booking"
+                }
+            ],
+            "elType": "container",
+            "isInner": false
+        }
+    ],
+    "page_settings": [],
+    "version": "0.4",
+    "title": "Tentang Kami — Hamago",
+    "type": "page"
+}

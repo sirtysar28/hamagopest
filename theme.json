@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "layout": { "contentSize": "1180px", "wideSize": "1360px" },
+    "color": {
+      "custom": true,
+      "palette": [
+        { "slug": "hmg-pine",    "color": "#0d1438", "name": "Hamago Navy (Dominan)" },
+        { "slug": "hmg-pine-2",  "color": "#1c2660", "name": "Hamago Navy 2" },
+        { "slug": "hmg-leaf",    "color": "#3f6df2", "name": "Hamago Azure" },
+        { "slug": "hmg-gold",    "color": "#ffc233", "name": "Hamago Gold (Tombol Cerah)" },
+        { "slug": "hmg-gold-dark","color": "#d9960d", "name": "Hamago Gold Dark" },
+        { "slug": "hmg-ink",     "color": "#141a3d", "name": "Hamago Ink" },
+        { "slug": "hmg-bg",      "color": "#f5f7fd", "name": "Hamago Background" },
+        { "slug": "hmg-bg-alt",  "color": "#eaeeff", "name": "Hamago Background Alt" },
+        { "slug": "hmg-white",   "color": "#ffffff", "name": "White" }
+      ]
+    },
+    "typography": {
+      "customFontSize": true,
+      "fontFamilies": [
+        { "fontFamily": "Sora, sans-serif", "slug": "hmg-head", "name": "Sora (Heading)" },
+        { "fontFamily": "Inter, sans-serif", "slug": "hmg-body", "name": "Inter (Body)" }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--hmg-body)",
+      "fontSize": "16px",
+      "lineHeight": "1.55"
+    }
+  }
+}

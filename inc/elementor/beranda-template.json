@@ -1,0 +1,862 @@
+{
+    "content": [
+        {
+            "id": "hmg063z",
+            "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "auto",
+                    "bottom": "0",
+                    "left": "auto",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "hmgy46f",
+                    "settings": {
+                        "eyebrow": "Pest Control Bersertifikat",
+                        "title": "Bebas hama, <span class=\"accent\">bukan sekadar janji.</span>",
+                        "lead": "Hamago menangani rayap, serangga, dan tikus sampai ke sumber masalahnya — dengan metode terukur, tenaga ahli berpengalaman, dan garansi layanan untuk rumah maupun bisnis Anda.",
+                        "btn_primary_text": "Ajukan Inspeksi Gratis",
+                        "btn_primary_link": {
+                            "url": "#kontak",
+                            "is_external": "",
+                            "nofollow": "",
+                            "custom_attributes": ""
+                        },
+                        "btn_secondary_text": "Lihat Layanan",
+                        "btn_secondary_link": {
+                            "url": "#layanan",
+                            "is_external": "",
+                            "nofollow": "",
+                            "custom_attributes": ""
+                        },
+                        "hero_images": [],
+                        "overlay_strength": {
+                            "unit": "%",
+                            "size": 30,
+                            "sizes": []
+                        },
+                        "keep_radar": "",
+                        "slider_autoplay": "yes",
+                        "slider_speed": {
+                            "unit": "s",
+                            "size": 5,
+                            "sizes": []
+                        },
+                        "slider_arrows": "yes",
+                        "slider_dots": "yes",
+                        "stats": [
+                            {
+                                "number": "10+",
+                                "label": "Tahun menangani hama",
+                                "_id": "st1"
+                            },
+                            {
+                                "number": "1.200+",
+                                "label": "Properti tertangani",
+                                "_id": "st2"
+                            },
+                            {
+                                "number": "4.9/5",
+                                "label": "Rating kepuasan klien",
+                                "_id": "st3"
+                            }
+                        ],
+                        "radar_core_icon": "shield-check",
+                        "chips": [
+                            {
+                                "icon": "bug",
+                                "orbit": "outer",
+                                "color": "pine",
+                                "angle": 10,
+                                "_id": "c1"
+                            },
+                            {
+                                "icon": "termite",
+                                "orbit": "outer",
+                                "color": "gold",
+                                "angle": 80,
+                                "_id": "c2"
+                            },
+                            {
+                                "icon": "mosquito",
+                                "orbit": "outer",
+                                "color": "pine",
+                                "angle": 150,
+                                "_id": "c3"
+                            },
+                            {
+                                "icon": "rat",
+                                "orbit": "outer",
+                                "color": "gold",
+                                "angle": 215,
+                                "_id": "c4"
+                            },
+                            {
+                                "icon": "cockroach",
+                                "orbit": "outer",
+                                "color": "pine",
+                                "angle": 285,
+                                "_id": "c5"
+                            },
+                            {
+                                "icon": "ant",
+                                "orbit": "inner",
+                                "color": "gold",
+                                "angle": 30,
+                                "_id": "c6"
+                            },
+                            {
+                                "icon": "spider",
+                                "orbit": "inner",
+                                "color": "pine",
+                                "angle": 120,
+                                "_id": "c7"
+                            },
+                            {
+                                "icon": "droplet",
+                                "orbit": "inner",
+                                "color": "gold",
+                                "angle": 240,
+                                "_id": "c8"
+                            }
+                        ],
+                        "orbit_speed": {
+                            "unit": "s",
+                            "size": 26,
+                            "sizes": []
+                        },
+                        "orbit_speed_inner": {
+                            "unit": "s",
+                            "size": 40,
+                            "sizes": []
+                        },
+                        "show_sweep": "yes",
+                        "show_ripple": "yes",
+                        "enable_parallax": "yes"
+                    },
+                    "elements": [],
+                    "elType": "widget",
+                    "widgetType": "hamago_hero"
+                }
+            ],
+            "elType": "container",
+            "isInner": false
+        },
+        {
+            "id": "hmg0c7y",
+            "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "auto",
+                    "bottom": "0",
+                    "left": "auto",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "hmgyaae",
+                    "settings": {
+                        "eyebrow": "Kenapa Hamago",
+                        "heading": "Empat alasan klien kami bertahan bertahun-tahun",
+                        "sub": "Bukan cuma menyemprot dan pergi — kami merancang solusi sesuai kondisi properti, lalu memastikan hasilnya bertahan.",
+                        "items": [
+                            {
+                                "icon": "search",
+                                "title": "Inspeksi Gratis",
+                                "desc": "Tim kami memetakan titik masuk dan sarang hama sebelum menentukan rencana penanganan — tanpa biaya.",
+                                "_id": "u1"
+                            },
+                            {
+                                "icon": "target",
+                                "title": "Solusi Kustom",
+                                "desc": "Metode disesuaikan dengan jenis hama, tingkat infestasi, dan karakter bangunan Anda.",
+                                "_id": "u2"
+                            },
+                            {
+                                "icon": "bundle",
+                                "title": "Paket Bundling",
+                                "desc": "Perawatan rutin tahunan dengan harga lebih hemat, dirancang untuk mencegah hama datang kembali.",
+                                "_id": "u3"
+                            },
+                            {
+                                "icon": "price",
+                                "title": "Harga Transparan",
+                                "desc": "Penawaran jelas di awal, tanpa biaya tersembunyi, sepadan dengan kualitas layanan yang Anda terima.",
+                                "_id": "u4"
+                            }
+                        ],
+                        "enable_parallax": "yes"
+                    },
+                    "elements": [],
+                    "elType": "widget",
+                    "widgetType": "hamago_usp"
+                }
+            ],
+            "elType": "container",
+            "isInner": false
+        },
+        {
+            "id": "hmg0ibx",
+            "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "auto",
+                    "bottom": "0",
+                    "left": "auto",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "hmgyged",
+                    "settings": {
+                        "eyebrow": "Tentang Kami",
+                        "heading": "Mitra pengendalian hama yang bekerja dengan data, bukan tebakan",
+                        "body": "Hamago Pest Solutions memadukan teknisi bersertifikat dengan pendekatan yang terukur untuk menjaga hunian dan area komersial tetap bersih dan sehat. Setiap metode yang kami pakai diuji aman bagi keluarga dan lingkungan kerja Anda, mulai dari inspeksi awal hingga pemantauan pasca-treatment.",
+                        "btn_text": "Pelajari Layanan Kami",
+                        "btn_link": {
+                            "url": "#layanan",
+                            "is_external": "",
+                            "nofollow": "",
+                            "custom_attributes": ""
+                        },
+                        "cells": [
+                            {
+                                "value": "10+",
+                                "label": "Tahun pengalaman lapangan",
+                                "_id": "a1"
+                            },
+                            {
+                                "value": "50+",
+                                "label": "Teknisi bersertifikat",
+                                "_id": "a2"
+                            },
+                            {
+                                "value": "15",
+                                "label": "Kota jangkauan layanan",
+                                "_id": "a3"
+                            },
+                            {
+                                "value": "98%",
+                                "label": "Klien merekomendasikan",
+                                "_id": "a4"
+                            }
+                        ],
+                        "section_bg": "default",
+                        "enable_parallax": "yes"
+                    },
+                    "elements": [],
+                    "elType": "widget",
+                    "widgetType": "hamago_about"
+                }
+            ],
+            "elType": "container",
+            "isInner": false
+        },
+        {
+            "id": "hmg0ofw",
+            "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "auto",
+                    "bottom": "0",
+                    "left": "auto",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "hmgymic",
+                    "settings": {
+                        "eyebrow": "Layanan Kami",
+                        "heading": "Penanganan hama yang paling sering mengganggu properti Anda",
+                        "sub": "",
+                        "cards": [
+                            {
+                                "icon": "rat",
+                                "title": "Rodent Control",
+                                "desc": "Pengendalian tikus dan hama pengerat secara menyeluruh: deteksi jalur masuk, pengumpanan aman, dan sanitasi area agar infestasi tidak kembali.",
+                                "methods": "",
+                                "image": {
+                                    "url": "",
+                                    "id": ""
+                                },
+                                "link": {
+                                    "url": "",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "_id": "s1"
+                            },
+                            {
+                                "icon": "bug",
+                                "title": "Pest Control",
+                                "desc": "Pengendalian hama umum — kecoa, semut, nyamuk, lalat, dan serangga lainnya — untuk rumah, kantor, hingga area komersial.",
+                                "methods": "",
+                                "image": {
+                                    "url": "",
+                                    "id": ""
+                                },
+                                "link": {
+                                    "url": "",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "_id": "s2"
+                            },
+                            {
+                                "icon": "termite",
+                                "title": "Termite Control",
+                                "desc": "Basmi rayap hingga ke koloninya dengan metode terpilih sesuai kondisi bangunan Anda.",
+                                "methods": "Metode Pipanisasi\nMetode Baiting (Pengumpanan)\nMetode Injeksi — Penyuntikan Chemical Anti Rayap",
+                                "image": {
+                                    "url": "",
+                                    "id": ""
+                                },
+                                "link": {
+                                    "url": "",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "_id": "s3"
+                            },
+                            {
+                                "icon": "fumigation",
+                                "title": "Fumigasi",
+                                "desc": "Pengasapan komoditas, gudang, dan kontainer memakai fumigan resmi, dikerjakan tenaga ahli bersertifikat.",
+                                "methods": "",
+                                "image": {
+                                    "url": "",
+                                    "id": ""
+                                },
+                                "link": {
+                                    "url": "",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "_id": "s4"
+                            },
+                            {
+                                "icon": "spray",
+                                "title": "Disinfeksi & Sanitasi",
+                                "desc": "Kebersihan permukaan saja tidak cukup — kami membasmi virus dan bakteri untuk lingkungan yang lebih higienis.",
+                                "methods": "",
+                                "image": {
+                                    "url": "",
+                                    "id": ""
+                                },
+                                "link": {
+                                    "url": "",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "_id": "s5"
+                            },
+                            {
+                                "icon": "snake",
+                                "title": "Pengendalian Hewan Pengganggu",
+                                "desc": "Ular, biawak, kucing liar, tawon, lebah, dan hewan pengganggu lainnya ditangani dengan aman oleh tim berpengalaman.",
+                                "methods": "",
+                                "image": {
+                                    "url": "",
+                                    "id": ""
+                                },
+                                "link": {
+                                    "url": "",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "_id": "s6"
+                            },
+                            {
+                                "icon": "scent",
+                                "title": "Pengharum Ruangan",
+                                "desc": "Layanan pengharum ruangan untuk kantor dan hotel — aroma segar, tahan lama, dan aman bagi penghuni.",
+                                "methods": "",
+                                "image": {
+                                    "url": "",
+                                    "id": ""
+                                },
+                                "link": {
+                                    "url": "",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "_id": "s7"
+                            },
+                            {
+                                "icon": "broom",
+                                "title": "Cleaning Services",
+                                "desc": "Layanan pembersihan profesional untuk rumah, kantor, dan area komersial — hasil bersih, rapi, dan higienis oleh tim terlatih.",
+                                "methods": "",
+                                "image": {
+                                    "url": "",
+                                    "id": ""
+                                },
+                                "link": {
+                                    "url": "",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "_id": "s8"
+                            }
+                        ],
+                        "columns": "4",
+                        "section_bg": "alt",
+                        "enable_parallax": "yes"
+                    },
+                    "elements": [],
+                    "elType": "widget",
+                    "widgetType": "hamago_services"
+                }
+            ],
+            "elType": "container",
+            "isInner": false
+        },
+        {
+            "id": "hmg0ujv",
+            "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "auto",
+                    "bottom": "0",
+                    "left": "auto",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "hmgysmb",
+                    "settings": {
+                        "eyebrow": "Cara Kerja",
+                        "heading": "Empat langkah menuju properti yang bebas hama",
+                        "sub": "",
+                        "steps": [
+                            {
+                                "title": "Konsultasi",
+                                "desc": "Ceritakan keluhan hama Anda lewat telepon atau WhatsApp, kami jadwalkan kunjungan.",
+                                "_id": "p1"
+                            },
+                            {
+                                "title": "Inspeksi Lapangan",
+                                "desc": "Teknisi memetakan titik masuk dan tingkat infestasi secara langsung di lokasi.",
+                                "_id": "p2"
+                            },
+                            {
+                                "title": "Treatment",
+                                "desc": "Penanganan dilakukan sesuai rencana yang disepakati, dengan metode yang aman.",
+                                "_id": "p3"
+                            },
+                            {
+                                "title": "Pemantauan",
+                                "desc": "Kami pantau hasil dan berikan garansi agar hama tidak kembali.",
+                                "_id": "p4"
+                            }
+                        ],
+                        "section_bg": "alt",
+                        "enable_parallax": "yes"
+                    },
+                    "elements": [],
+                    "elType": "widget",
+                    "widgetType": "hamago_process"
+                }
+            ],
+            "elType": "container",
+            "isInner": false
+        },
+        {
+            "id": "hmg10nu",
+            "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "auto",
+                    "bottom": "0",
+                    "left": "auto",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "hmgyyqa",
+                    "settings": {
+                        "eyebrow": "Kenali Hamago",
+                        "heading": "Lihat bagaimana tim kami menangani masalah hama dari awal sampai tuntas",
+                        "sub": "Tonton cuplikan proses kerja lapangan tim teknisi Hamago di berbagai properti klien.",
+                        "video_link": {
+                            "url": "",
+                            "is_external": "",
+                            "nofollow": "",
+                            "custom_attributes": ""
+                        },
+                        "lightbox": "yes",
+                        "enable_parallax": "yes"
+                    },
+                    "elements": [],
+                    "elType": "widget",
+                    "widgetType": "hamago_video_cta"
+                }
+            ],
+            "elType": "container",
+            "isInner": false
+        },
+        {
+            "id": "hmg16rt",
+            "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "auto",
+                    "bottom": "0",
+                    "left": "auto",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "hmgz4u9",
+                    "settings": {
+                        "eyebrow": "Dipercaya Oleh",
+                        "heading": "Mitra dan klien Hamago",
+                        "clients": [
+                            {
+                                "name": "Anya Living",
+                                "image": {
+                                    "url": "",
+                                    "id": ""
+                                },
+                                "_id": "k1"
+                            },
+                            {
+                                "name": "Streat Koppi",
+                                "image": {
+                                    "url": "",
+                                    "id": ""
+                                },
+                                "_id": "k2"
+                            },
+                            {
+                                "name": "BRImedika",
+                                "image": {
+                                    "url": "",
+                                    "id": ""
+                                },
+                                "_id": "k3"
+                            },
+                            {
+                                "name": "Casablanca Mansion",
+                                "image": {
+                                    "url": "",
+                                    "id": ""
+                                },
+                                "_id": "k4"
+                            },
+                            {
+                                "name": "Oasis Residence",
+                                "image": {
+                                    "url": "",
+                                    "id": ""
+                                },
+                                "_id": "k5"
+                            },
+                            {
+                                "name": "Syofia Islamic School",
+                                "image": {
+                                    "url": "",
+                                    "id": ""
+                                },
+                                "_id": "k6"
+                            }
+                        ],
+                        "marquee": "no",
+                        "section_bg": "default",
+                        "enable_parallax": "yes"
+                    },
+                    "elements": [],
+                    "elType": "widget",
+                    "widgetType": "hamago_clients"
+                }
+            ],
+            "elType": "container",
+            "isInner": false
+        },
+        {
+            "id": "hmg1cvs",
+            "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "auto",
+                    "bottom": "0",
+                    "left": "auto",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "hmgzay8",
+                    "settings": {
+                        "eyebrow": "Testimoni",
+                        "heading": "Apa kata klien tentang layanan kami",
+                        "sub": "",
+                        "items": [
+                            {
+                                "quote": "Tim Hamago datang tepat waktu dan menjelaskan setiap tahap penanganan dengan jelas. Masalah rayap di rumah kami akhirnya tuntas.",
+                                "name": "Andi Prasetyo",
+                                "role": "Pemilik Rumah, Jakarta Timur",
+                                "avatar": {
+                                    "url": "",
+                                    "id": ""
+                                },
+                                "_id": "t1"
+                            },
+                            {
+                                "quote": "Sebagai pengelola gedung, kami butuh mitra yang bisa diandalkan untuk perawatan rutin. Hamago konsisten dan rapi dalam laporan kerja.",
+                                "name": "Mira Santoso",
+                                "role": "Building Manager",
+                                "avatar": {
+                                    "url": "",
+                                    "id": ""
+                                },
+                                "_id": "t2"
+                            },
+                            {
+                                "quote": "Harga yang ditawarkan transparan sejak awal, tidak ada biaya tambahan mendadak. Hasilnya juga sesuai yang dijanjikan.",
+                                "name": "Rian Kusuma",
+                                "role": "Pemilik Restoran",
+                                "avatar": {
+                                    "url": "",
+                                    "id": ""
+                                },
+                                "_id": "t3"
+                            }
+                        ],
+                        "show_stars": "yes",
+                        "section_bg": "default",
+                        "enable_parallax": "yes"
+                    },
+                    "elements": [],
+                    "elType": "widget",
+                    "widgetType": "hamago_testimonials"
+                }
+            ],
+            "elType": "container",
+            "isInner": false
+        },
+        {
+            "id": "hmg1izr",
+            "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "auto",
+                    "bottom": "0",
+                    "left": "auto",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "hmgzh27",
+                    "settings": {
+                        "eyebrow": "Artikel",
+                        "heading": "Wawasan seputar hama dan pencegahannya",
+                        "sub": "",
+                        "posts_per_page": 3,
+                        "columns": "3",
+                        "btn_text": "Lihat Semua Artikel",
+                        "btn_link": {
+                            "url": "/?post_type=post",
+                            "is_external": "",
+                            "nofollow": "",
+                            "custom_attributes": ""
+                        },
+                        "section_bg": "alt",
+                        "enable_parallax": "yes"
+                    },
+                    "elements": [],
+                    "elType": "widget",
+                    "widgetType": "hamago_posts"
+                }
+            ],
+            "elType": "container",
+            "isInner": false
+        },
+        {
+            "id": "hmg1p3q",
+            "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "auto",
+                    "bottom": "0",
+                    "left": "auto",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "hmgzn66",
+                    "settings": {
+                        "heading": "Siap bebas dari hama?",
+                        "sub": "Jadwalkan inspeksi gratis dan konsultasikan masalah hama Anda hari ini.",
+                        "btn_text": "Hubungi via WhatsApp",
+                        "btn_link": {
+                            "url": "",
+                            "is_external": "",
+                            "nofollow": "",
+                            "custom_attributes": ""
+                        },
+                        "enable_parallax": "yes"
+                    },
+                    "elements": [],
+                    "elType": "widget",
+                    "widgetType": "hamago_booking"
+                }
+            ],
+            "elType": "container",
+            "isInner": false
+        }
+    ],
+    "page_settings": [],
+    "version": "0.4",
+    "title": "Beranda",
+    "type": "page"
+}

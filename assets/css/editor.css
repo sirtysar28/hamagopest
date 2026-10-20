@@ -1,0 +1,17 @@
+/* Editor styles (Gutenberg) — Sora heading, Inter body, warna brand */
+.editor-styles-wrapper {
+	font-family: 'Inter', sans-serif;
+	color: #141a3d;
+}
+.editor-styles-wrapper .wp-block-heading,
+.editor-styles-wrapper h1, .editor-styles-wrapper h2,
+.editor-styles-wrapper h3, .editor-styles-wrapper h4 {
+	font-family: 'Sora', sans-serif;
+	color: #0d1438;
+	line-height: 1.14;
+	font-weight: 700;
+}
+.editor-styles-wrapper a { color: #3f6df2; }
+.edit-post-visual-editor__post-title-wrapper .editor-post-title__input {
+	font-family: 'Sora', sans-serif;
+}
